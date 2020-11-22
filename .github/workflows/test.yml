@@ -1,4 +1,4 @@
-name: test
+name: Test
 
 on: [push, pull_request]
 
@@ -23,3 +23,4 @@ jobs:
       - run: yarn install
       - run: yarn lint
       - run: yarn test
+      - run: yarn generate
